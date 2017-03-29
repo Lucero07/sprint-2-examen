@@ -9,17 +9,20 @@
     <body>
 
     <h1> Agenda</h1>
-  <span class="NewBoton">
-    <ul id="Pendientes" onclick="borrarPendiente();">
-      <ul id="Actividads" onclick="borrarActividad()";>
-      </ul>
-    </ul>
+  <span class="visual">
+    <dl><h3>Lista de Pendientes</h3>
+      <dt id="Pendientes" onclick="borrarPendiente();"></dt>
+          <dd id="Actividads" onclick="borrarPendiente1()";></dd>
+    </dl>
+  </span>
+  <span class="caja">
     <textarea name="name" rows="8" cols="80" type="text" id="areaPendiente" value=""></textarea>
-
+</span>
+<br>
+<span class="botones">
     <input type="button" onclick="agregarPendiente();" value="Agregar Pendiente" />
     <input type="button" onclick="agregarActividad();" value="Agregar Actividad" />
-
-  </span>
+</span>
 <script src="javaScript/main.js"></script>
   </body>
   <footer id="pie_de_pagina">
