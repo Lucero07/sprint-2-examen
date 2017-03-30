@@ -18,12 +18,17 @@ function agregarPendiente(){
 function borrarPendiente(){
     lis=document.getElementById('Pendientes').getElementsByTagName('dt');
         for(var i=0; i<lis.length;i++){
-        lis[i]=function(){
+        lis[i].onclick=function(){
             if(confirm('¿seguro que quieres eliminar esto'))
             this.parentNode.removeChild(this);
       };
   }
-};
+  // document.getElementById('lista').getElementsByTagName('dl');
+  // if(confirm('¿seguro que quieres eliminar esto')){
+  //       this.parentNode.remove(this);
+  //     };
+  };
+
 
 //lista interna
   var lis2;
@@ -42,7 +47,7 @@ function agregarActividad(){
 
 
 function borrarPendiente1(elemento){
-    lis=elemento.parentNode.getAttribute('dd');
+    elemento.parentNode.getAttribute('dd');
     if(confirm('¿seguro que quieres eliminar esto')){
             elemento.parentNode.remove(this);
         };
