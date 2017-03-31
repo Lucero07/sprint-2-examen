@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Trello</title>
-    <link id="estilo" rel="stylesheet" type="text/css" href="estilo/estilos.css" media="screen" />
-    <link rel="shorcut icon" type="image/x-icon" href="estilo/cerezo.jpg"/>
-    </head>
+    <link id="estilo" rel="stylesheet" type="text/css" href="estilo/estilos.css" />
+    <link rel="shorcut icon" type="image/x-icon" href="estilo/cerezo.jpg" />
+</head>
+<body>
+    <h1>Agenda Trello</h1>
+    <hr>
+    <article id="arreglo_lista">
+    </article>
 
-    <body>
-
-    <h1> Agenda</h1>
-  <span class="visual">
+    <div class="botones_inicio">
+      <h2>Agrega tu tarjeta</h2>
+      <input type="text" id="titulo_lista" placeholder="Agregar Tarjeta"/>
+      <input type="submit" id="lista_objetos" onclick="generar_lista()" value="Agregar tarjeta" />
+    </div>
+    <!--span class="visual">
     <dl id="lista"><h3>Lista de Pendientes</h3>
       <dt id="Pendientes" ></dt>
           <dd id="Actividads" ;></dd>
     </dl>
   </span>
-  <span class="caja">
+    <span class="caja">
     <textarea name="name" rows="8" cols="80" type="text" id="areaPendiente" value=""></textarea>
 </span>
-<br>
-<span class="botones">
+    <br>
+    <span class="botones">
     <input type="button" onclick="agregarPendiente();" value="Agregar Pendiente" />
     <input type="button" onclick="agregarActividad();" value="Agregar Actividad" />
-</span>
-<script src="javaScript/main.js"></script>
-  </body>
-  <footer id="pie_de_pagina">
-  Hecho por: Lucero Ramos Lázaro
-  </footer>
+</span-->
+    <script src="javaScript/main.js"></script>
+    <hr>
+    <footer id="pie_pagina">
+        Hecho por: Lucero Ramos Lázaro
+    </footer>
+</body>
+
+
 </html>

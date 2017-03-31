@@ -1,53 +1,58 @@
-@font-face{
-  font-family: "free";
-  src: url("Sketch.ttf");
+@font-face {
+    font-family: "free";
+    src: url("Sketch.ttf");
 }
 
-
-h1{
-  font-family: free;
-  text-align:center;
-  color:#DF013A;
+h1 {
+    font-family: free;
+    text-align: center;
+    color: 	#FF69B4;
+    font-size: 50px;
+    border: 2px;
+    border-color: #DF013A
 }
-body{
-  background-color: pink;
-  background-size: 100%;
-  background-repeat: no-repeat;
-
+hr{
+  padding: 2px;
 }
-.caja{
-    color:#fff;
-    border:1px solid #ccc;
-    background-color:#808080;
-    margin-right:10px;
+body {
+   font-family: free;
+    margin-left:10px;
+    width: 95%;
+    height: 100%;
+    background-color: pink;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+footer{
+  text-align: center;
+  font-size: 10px;
+  color: #800080;
+}
+section{
+  width: 75%;
+  text-align:left;
+  color: 	#000080;
+  font-size: 20px;
+}
+li{
+  width: 75%;
+  text-align:left;
+  color: #DF013A;
+  font-size: 15px;
+}
+
+.caja {
+    color: #fff;
+    border: 1px solid #ccc;
+    background-color: #808080;
+    margin-right: 10px;
     padding: 2px;
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
-    -o-border-radius:4px;
-    border-radius:4px;
-    font-weight:bold;
-    font-size:0.8em;
-    cursor:pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
 }
- /*
-.botonCrear{
-  background-image:url("imagen/crear.png");
-  background-repeat:no-repeat;
-  height:40px;
-  width:40px;
-  background-size: 100%;
-}
-.botonPelear{
-  background-image:url("imagen/vs.png");
-  height:30px;
-  width:60px;
-  background-size: 100%;
-}
-
-#pokemon{
-  background-image:url("imagen/pokemon.jpg");
-  height:60px;
-  width:60px;
-  background-size: 100%;
-}*/
